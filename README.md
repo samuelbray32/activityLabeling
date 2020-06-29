@@ -1,6 +1,6 @@
-# Project Title
+# activityLabeling
 
-One Paragraph of project description goes here
+activityLabeling_* is a set of classes used to featurize time series data with wavelet transformations and infer latent state labels. The class is modeled after sklearn API and intended to provide one line fitting and latent state prediction after construction. The class is also pickleable to allow easy transfer of the prediction set between data sets. See demo.ipynb for example code
 
 ## System requirements
 
@@ -21,10 +21,6 @@ matplotlib 3.1.1 (for visualization)
 
 ```
 
-
-## Overview
-activityLabeling_* is a set of classes used to featurize time series data with wavelet transformations and infer latent state labels. The class is modeled after sklearn API and intended to provide one line fitting and latent state prediction after construction. The class is also pickleable to allow easy transfer of the prediction set between data sets. See demo.ipynb for example code
-
 ### Key Functions
 **Constructor:**   Pass
 
@@ -32,8 +28,10 @@ activityLabeling_* is a set of classes used to featurize time series data with w
 
 **.predict_raw()** One line function to apply wavelet and latent space transformations
 
-###Demo
+### Demo
+
 Output transformations of data series after fitting.
+
 ![What is this](example.png)
 
 ### Current implementations
